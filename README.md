@@ -14,6 +14,26 @@ Solution: This system allows users to withdraw ETH instantly when exiting an Eth
 2. **Validator exit is detected** using the Ethereum Beacon Chain.
 3. **Flashbots executes the repayment transaction** in the same block as the withdrawal.
 
+📂 instant-validator-withdrawal
+│── 📂 contracts                 # Smart contract for handling validator exits
+│    │── InstantValidatorExit.sol
+│
+│── 📂 scripts                   # Automation scripts
+│    │── monitor_exits.py        # Detects validator exits in real time
+│    │── execute_flashbots.py    # Sends repayment transaction via Flashbots
+│
+│── 📂 docs                      # Documentation
+│    │── SYSTEM_OVERVIEW.md      # Overview of the system's purpose
+│    │── TECHNICAL_ARCHITECTURE.md # Detailed technical breakdown
+│    │── SECURITY_ANALYSIS.md    # Security risks & mitigations
+│    │── INSTALLATION_GUIDE.md   # Step-by-step installation guide
+│
+│── .gitignore                   # Prevents sensitive files from being committed
+│── .env.example                 # Example environment file (without private keys)
+│── README.md                    # Project overview
+│── LICENSE.md                    # License details
+
+
 **Technical Architecture: Instant Validator Withdrawal System**
 
 **1. Overview**

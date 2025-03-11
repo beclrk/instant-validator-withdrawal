@@ -36,7 +36,3 @@ This system benefits:
 ## **6. Conclusion**
 The **Instant Validator Withdrawal System** enhances **Ethereum staking liquidity** by combining **real-time validator monitoring** with **automated MEV transactions**, eliminating **withdrawal delays and repayment risks**.
 
----
-
-**Next:** See [Technical Architecture](./TECHNICAL_ARCHITECTURE.md) for system implementation details.
-

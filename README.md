@@ -1,5 +1,6 @@
 # Instant Validator Withdrawal System
 Problem: Users (especially institutions), the exit queue on Ethereum is a considerable negative for many financial products.
+
 Solution: This system allows users to withdraw ETH instantly when exiting an Ethereum validator, while ensuring repayment is enforced via Flashbots.
 
 ## Features

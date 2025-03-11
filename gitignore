@@ -1,0 +1,10 @@
+# Ignore environment files (important for security)
+.env
+.env.local
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Node.js dependencies (if applicable)
+node_modules/

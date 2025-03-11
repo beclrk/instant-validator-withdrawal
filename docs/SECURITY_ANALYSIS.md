@@ -75,5 +75,3 @@ This system is designed with **multiple layers of security** to ensure that ETH 
 ✅ **Multi-relay approach to prevent transaction censorship.**  
 ✅ **Automatic retries & fallback execution strategies.**  
 ✅ **Ensured execution even if Flashbots fails.**  
-
-🚀 **With these security measures in place, the staking provider is fully protected from financial loss.**
